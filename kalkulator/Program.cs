@@ -14,7 +14,7 @@ namespace kalkulator
                 a = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Wpisz 2 liczbę:");
                 b = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Podaj działanie(+, -, *, /, NWD, z - zakończ):");
+                Console.WriteLine("Podaj działanie(+, -, *, /, NWD, ^, v, z - zakończ):");
                 d = Console.ReadLine();
                 switch (d)
                 {
