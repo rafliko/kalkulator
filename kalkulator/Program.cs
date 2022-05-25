@@ -37,38 +37,60 @@ namespace kalkulator
                         Matma.potega(a, b);
                         break;
                     case "v":
-                        Console.WriteLine("pierwiastek z a: "+Math.Sqrt(a));
-                        Console.WriteLine("pierwiastek z b: " + Math.Sqrt(b));
+                        Matma.pierwiastek(a, b);
                         break;
                 }
             } while (d!="z");
         }
     }
-    class Matma
+    public static class Matma
     {
-        public void dodawanie(double a, double b)
+        public static void dodawanie(double a, double b)
         {
-
+            double c = a + b;
+            Console.WriteLine("{0}+{1}={2}", a, b, c);
         }
-        public void odejmowanie(double a, double b)
+        public static void odejmowanie(double a, double b)
         {
-
+            double c = a - b;
+            Console.WriteLine("{0}-{1}={2}", a, b, c);
         }
-        public void mnozenie(double a, double b)
+        public static void mnozenie(double a, double b)
         {
-
+            double c = a * b;
+            Console.WriteLine("{0}*{1}={2}", a, b, c);
         }
-        public void dzielenie(double a, double b)
+        public static void dzielenie(double a, double b)
         {
-
+            double c = a / b;
+            Console.WriteLine("{0}/{1}={2}",a, b, c);
         }
-        public void nwd(double a, double b)
+        public static void nwd(double a, double b)
         {
-
+            double x = a;
+            double y = b;
+            while(a!=b)
+            {
+                if(a>b)
+                {
+                    a -= b;
+                }
+                else
+                {
+                    b -= a;
+                }
+            }
+            Console.WriteLine("NWD({0},{1})={2}",x,y,a);
         }
-        public void potega(double a, double b)
+        public static void potega(double a, double b)
         {
-
+            double c = Math.Pow(a,b);
+            Console.WriteLine("{0}^{1}={2}", a, b, c);
+        }
+        public static void pierwiastek(double a, double b)
+        {
+            Console.WriteLine("pierwiastek z a: " + Math.Sqrt(a));
+            Console.WriteLine("pierwiastek z b: " + Math.Sqrt(b));
         }
     }
 
