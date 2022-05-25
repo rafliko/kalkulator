@@ -39,6 +39,7 @@ namespace kalkulator
                     case "v":
                         Console.WriteLine("pierwiastek z a: "+Math.Sqrt(a));
                         Console.WriteLine("pierwiastek z b: " + Math.Sqrt(b));
+                        break;
                 }
             } while (d!="z");
         }
