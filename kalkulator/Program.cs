@@ -33,6 +33,9 @@ namespace kalkulator
                     case "NWD":
                         Matma.nwd(a, b);
                         break;
+                    case "^":
+                        Matma.potega(a, b);
+                        break;
                 }
             } while (d!="z");
         }
