@@ -36,6 +36,9 @@ namespace kalkulator
                     case "^":
                         Matma.potega(a, b);
                         break;
+                    case "v":
+                        Console.WriteLine("pierwiastek z a: "+Math.Sqrt(a));
+                        Console.WriteLine("pierwiastek z b: " + Math.Sqrt(b));
                 }
             } while (d!="z");
         }
