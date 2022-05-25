@@ -46,27 +46,27 @@ namespace kalkulator
     }
     class Matma
     {
-        public void dodawanie(double a, double b)
+        public static void dodawanie(double a, double b)
         {
 
         }
-        public void odejmowanie(double a, double b)
+        public static void odejmowanie(double a, double b)
         {
 
         }
-        public void mnozenie(double a, double b)
+        public static void mnozenie(double a, double b)
         {
 
         }
-        public void dzielenie(double a, double b)
+        public static void dzielenie(double a, double b)
         {
 
         }
-        public void nwd(double a, double b)
+        public static void nwd(double a, double b)
         {
 
         }
-        public void potega(double a, double b)
+        public static void potega(double a, double b)
         {
 
         }
