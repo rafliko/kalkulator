@@ -7,13 +7,28 @@ namespace kalkulator
         static void Main(string[] args)
         {
             double a, b;
+            a = b = 0;
             string d;
             do
             {
                 Console.WriteLine("Wpisz 1 liczbę:");
-                a = Convert.ToDouble(Console.ReadLine());
+                try
+                {
+                    a = Convert.ToDouble(Console.ReadLine());
+                }
+                catch(System.FormatException ex)
+                {
+                    Console.WriteLine("nie wpisuj mi czegos co nie jest liczba....... chyba ze dales . zamiast , to uzyj , do przecinkowych liczb");
+                }
                 Console.WriteLine("Wpisz 2 liczbę:");
-                b = Convert.ToDouble(Console.ReadLine());
+                try
+                {
+                    b = Convert.ToDouble(Console.ReadLine());
+                }
+                catch (System.FormatException ex)
+                {
+                    Console.WriteLine("nie wpisuj mi czegos co nie jest liczba....... chyba ze dales . zamiast , to uzyj , do przecinkowych liczb");
+                }
                 Console.WriteLine("Podaj działanie(+, -, *, /, NWD, ^, v, z - zakończ):");
                 d = Console.ReadLine();
                 switch (d)
@@ -31,6 +46,9 @@ namespace kalkulator
                         Matma.dzielenie(a, b);
                         break;
                     case "NWD":
+                        Matma.nwd(a, b);
+                        break;
+                    case "nwd":
                         Matma.nwd(a, b);
                         break;
                     case "^":
@@ -62,7 +80,8 @@ namespace kalkulator
         }
         public static void dzielenie(double a, double b)
         {
-            double c = a / b;
+                double c = a / b;
+
             Console.WriteLine("{0}/{1}={2}",a, b, c);
         }
         public static void nwd(double a, double b)
