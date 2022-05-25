@@ -37,4 +37,32 @@ namespace kalkulator
             } while (d!="z");
         }
     }
+    class Matma
+    {
+        public void dodawanie(int a, int b)
+        {
+
+        }
+        public void odejmowanie(int a, int b)
+        {
+
+        }
+        public void mnozenie(int a, int b)
+        {
+
+        }
+        public void dzielenie(int a, int b)
+        {
+
+        }
+        public void nwd(int a, int b)
+        {
+
+        }
+        public void potega(int a, int b)
+        {
+
+        }
+    }
+
 }
