@@ -8,23 +8,39 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\2PTO_MŻ\\.nuget\\packages\\": {},
+=======
     "C:\\Users\\2PTO_MO\\.nuget\\packages\\": {},
+>>>>>>> b104b01da6737bac915d511a920715eae685e65b
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\2PTO_MŻ\\source\\repos\\ConsoleApp17\\kalkulator\\kalkulator\\kalkulator.csproj",
+      "projectName": "kalkulator",
+      "projectPath": "C:\\Users\\2PTO_MŻ\\source\\repos\\ConsoleApp17\\kalkulator\\kalkulator\\kalkulator.csproj",
+      "packagesPath": "C:\\Users\\2PTO_MŻ\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2PTO_MŻ\\source\\repos\\ConsoleApp17\\kalkulator\\kalkulator\\obj\\",
+=======
       "projectUniqueName": "F:\\tim\\kalkulator\\kalkulator\\kalkulator.csproj",
       "projectName": "kalkulator",
       "projectPath": "F:\\tim\\kalkulator\\kalkulator\\kalkulator.csproj",
       "packagesPath": "C:\\Users\\2PTO_MO\\.nuget\\packages\\",
       "outputPath": "F:\\tim\\kalkulator\\kalkulator\\obj\\",
+>>>>>>> b104b01da6737bac915d511a920715eae685e65b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
+        "C:\\Users\\2PTO_MŻ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
         "C:\\Users\\2PTO_MO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b104b01da6737bac915d511a920715eae685e65b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

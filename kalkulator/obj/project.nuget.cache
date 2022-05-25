@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "DSRhCnsvR/TCu5ywhfCoW49ZLWUWP/WImgKBsCqmFjS45jmqbRPkasQNA3k5MwDLvIn4bUUktHQcaliF36JpJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\2PTO_MŻ\\source\\repos\\ConsoleApp17\\kalkulator\\kalkulator\\kalkulator.csproj",
+=======
   "dgSpecHash": "keoJvQv66Z91CFSILmANaTHpIwakm99LwWCcgejHHd8ODmja/tuc1sNSITXw9+Gl63ZaP6T+ntZqJF6Y2T5s0g==",
   "success": true,
   "projectFilePath": "F:\\tim\\kalkulator\\kalkulator\\kalkulator.csproj",
+>>>>>>> b104b01da6737bac915d511a920715eae685e65b
   "expectedPackageFiles": [],
   "logs": []
 }
